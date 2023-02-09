@@ -1,0 +1,15 @@
+{
+	"client": {
+		"host": "node2.magmanode.com",
+		"port": "30726",
+		"username": "Polo12"
+	},
+	
+	"! DO NOT EDIT BELOW !": "ONLY IF YOU KNOW WHAT YOU'RE DOING",
+	"logLevel": ["error", "log", "debug"],
+	"action": {
+		"commands": ["forward", "back", "left", "right", "jump"],
+		"holdDelays": [1000, 2000, 3000, 4000, 5000, 6000],
+		"retryDelay": 15000
+	}
+}

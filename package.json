@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"type": "module",
+	"name": "atornes-afkbot",
+	"author": "JadeMin",
+	"version": "0.0.0",
+	"license": "GPL-3.0",
+	"scripts": {
+		"server": "node --no-warnings --experimental-vm-modules ./src/index.js",
+		"start": "npm run server"
+	},
+	"dependencies": {
+		"@ant-design/icons": "^5.0.0",
+		"antd": "^5.1.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.7.0"
+	},
+	"devDependencies": {
+		"esbuild": "^0.17.3",
+		"express": "^4.18.2",
+		"minecraft-protocol-forge": "^1.0.0",
+		"mineflayer": "^4.7.0",
+		"ws": "^8.12.0"
+	}
+}
